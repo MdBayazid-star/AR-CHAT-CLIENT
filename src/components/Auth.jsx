@@ -28,7 +28,7 @@ const Auth = () => {
 
     const { username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "https://ar-chat-apps.herokuapp.com//auth";
+    const URL = "https://ar-chat-apps.herokuapp.com/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName },
